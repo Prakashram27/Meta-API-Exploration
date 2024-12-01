@@ -3,10 +3,10 @@ from facebook_business.api import FacebookAdsApi
 from facebook_business.adobjects.productitem import ProductItem
 
 # Initialize the Facebook API
-ACCESS_TOKEN = 'EAAQFcXItNR8BO33gIeRmzE0wleFpWAhKDb6fPZAml5DruJ7pCY2NEa6xrvy3pxVFYLVZA6y7WxOIpjdO3CM02JOJOeMZA9FMlPd1zod73pF4ydY3myd8VqsIGdZAfCufV9p3XyQdoHbaKPhhafAud7bHEPxyZCm0hdX1IaQS7H9xvgdN26gC4VglFsZAxuBdfLZCIEWrnZCpGGitrEqmWK2M4FuCEQZDZD'
-APP_ID = '1131884711851295'
-APP_SECRET = '1fef7713aa9e1758887277a4ba6beef7'
-CATALOG_ID = '1518838045445568'  
+ACCESS_TOKEN = ''
+APP_ID = ''
+APP_SECRET = ''
+CATALOG_ID = ''  
 GRAPH_API_URL = f'https://graph.facebook.com/v21.0/{CATALOG_ID}/batch'
 GRAPH_API_BASE_URL = "https://graph.facebook.com/v21.0"
 

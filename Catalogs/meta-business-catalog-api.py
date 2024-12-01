@@ -132,8 +132,8 @@ class MetaBusinessCatalogAPI:
 # Example Usage
 def main():
     # Replace with your actual access token and business ID
-    ACCESS_TOKEN = 'EAAQFcXItNR8BO4BFighgn31cM2T6C6ZCzgwJ23uz7a8CsZA4xhohh8aPq4NZAUTGxjvlvxsncd25JYnhpmiGqX2BpbbpLboeJpKG0de2nhMg10JGf2AO40Em9K2fJTM1DzFJt990CZCGbtzonxDhgq8klbSkJHRxgvrgI9vZCtZCjPiZBRXrD3WMiNbt4YApjEyQochAsQUWZC7RAicOuGUdREN97QZDZD'
-    BUSINESS_ID = '1138893514424567'
+    ACCESS_TOKEN = ''
+    BUSINESS_ID = ''
     
     # Initialize the API client
     catalog_api = MetaBusinessCatalogAPI(ACCESS_TOKEN, BUSINESS_ID)

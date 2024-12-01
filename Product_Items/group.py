@@ -2,7 +2,7 @@ import requests
 
 # Define the endpoint and access token
 base_url = "https://graph.facebook.com/v21.0"  # Replace with the actual base URL
-product_group_id = "8924809700912011"  # Replace with your product group ID
+product_group_id = ""  # Replace with your product group ID
 url = f"{base_url}/{product_group_id}/products"
 
 # Prepare the payload

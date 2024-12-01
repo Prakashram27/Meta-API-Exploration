@@ -186,13 +186,13 @@ class MetaProductCatalogAPI:
 
 def main():
     # Replace with your actual credentials
-    ACCESS_TOKEN = 'EAAQFcXItNR8BO4BFighgn31cM2T6C6ZCzgwJ23uz7a8CsZA4xhohh8aPq4NZAUTGxjvlvxsncd25JYnhpmiGqX2BpbbpLboeJpKG0de2nhMg10JGf2AO40Em9K2fJTM1DzFJt990CZCGbtzonxDhgq8klbSkJHRxgvrgI9vZCtZCjPiZBRXrD3WMiNbt4YApjEyQochAsQUWZC7RAicOuGUdREN97QZDZD'
-    BUSINESS_ID = '1518838045445568'
+    ACCESS_TOKEN = ''
+    BUSINESS_ID = ''
     
     # Initialize the API client
     catalog_api = MetaProductCatalogAPI(ACCESS_TOKEN, BUSINESS_ID)
     
-    catalog_id = "1518838045445568"
+    catalog_id = ""
     
     catalog_api.manage_external_event_sources(catalog_id=catalog_id)
     
